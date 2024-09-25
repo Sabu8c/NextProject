@@ -1,8 +1,4 @@
 import Boxes from "@/components/Boxes";
-import Camp from "@/components/Camp";
-import Features from "@/components/Features";
-import { GetApp } from "@/components/GetApp";
-import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import Image from "next/image";
 
@@ -40,13 +36,7 @@ const boxItems = [
 export default function Home() {
   return (
     <>
-      {/* <Hero />
-      <Camp />
-      <Guide />
-      <Features />
-      <GetApp /> */}
-      <h1 className="bold-40 text-center">Nos Services</h1>
-      <Boxes items={boxItems} />
+      <section className="h-[100vh]"></section>
     </>
   );
 }
